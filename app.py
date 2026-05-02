@@ -29,23 +29,22 @@ with col1:
         )
 
 with col2:
-    gender = st.selectbox("Gender", ['Male','Female'],index=None, placeholder="Select option")
-    marital_status =st.selectbox("Marital Status",['Unmarried', 'Married'],index=None, placeholder="Select option")
-    employment_status =st.selectbox("Employment Status", ['Salaried', 'Self-Employed', 'Freelancer'],index=None,  placeholder="Select option")
-    bmi_category = st.selectbox("BMI Category", ['Normal','Obesity', 'Overweight', 'Underweight'],index=None ,  placeholder="Select option")
-
+    gender = st.selectbox("Gender", ['Male','Female'])
+    marital_status = st.selectbox("Marital Status", ['Unmarried', 'Married'])
+    employment_status = st.selectbox("Employment Status", ['Salaried', 'Self-Employed', 'Freelancer'])
+    bmi_category = st.selectbox("BMI Category", ['Normal', 'Obesity', 'Overweight', 'Underweight'])
 
 with col3:
-    region = st.selectbox("Region",["Northwest", "Southeast", "Northeast", "Southwest"],index=None, placeholder="Select option")
-    smoking_status = st.selectbox("Smoking Status", ["No Smoking", "Regular", "Occasional"],index=None, placeholder="Select option")
+    region = st.selectbox("Region", ["Northwest", "Southeast", "Northeast", "Southwest"])
+    smoking_status = st.selectbox("Smoking Status", ["No Smoking", "Regular", "Occasional"])
     medical_history = st.selectbox("Medical History", [
-                                "No Disease", "Diabetes", "High blood pressure",
-                                "Diabetes & High blood pressure", "Thyroid", "Heart disease",
-                                "High blood pressure & Heart disease", "Diabetes & Thyroid",
-                                "Diabetes & Heart disease"],index=None, placeholder="Select option")
-    insurance_plan = st.selectbox("Insurance Plan", ["Bronze", "Silver", "Gold"],index=None, placeholder="Select option")
-
+        "No Disease", "Diabetes", "High blood pressure",
+        "Diabetes & High blood pressure", "Thyroid", "Heart disease",
+        "High blood pressure & Heart disease", "Diabetes & Thyroid",
+        "Diabetes & Heart disease"])
+    insurance_plan = st.selectbox("Insurance Plan", ["Bronze", "Silver", "Gold"])
 st.divider()
+
 
 # Prediction Button
 if st.button("Predict Premium", width="stretch", type="primary"):
