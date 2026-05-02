@@ -93,6 +93,11 @@ streamlit run app.py
 ## Live Demo
 [🚀 Launch App](https://tanmay-health-insurance-premium-prediction.streamlit.app/)
 ## App Screenshot
-![App UI](screenshots/app_ui.png)
+![App UI](Screenshots/app_ui.png)
 
-![Prediction result](screenshots/prediction_result.png)
+![Prediction result](Screenshots/prediction_result.png)
+
+## Connect
+**Tanmay Roy**
+
+[LinkedIn](https://www.linkedin.com/in/tanmay-roy-/)
