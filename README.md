@@ -96,8 +96,11 @@ streamlit run app.py
 ![App UI](Screenshots/app_ui.png)
 
 ![Prediction result](Screenshots/prediction_result.png)
+<<<<<<< HEAD
 
 ## Connect
 **Tanmay Roy**
 
 [LinkedIn](https://www.linkedin.com/in/tanmay-roy-/)
+=======
+>>>>>>> b9cb9eb8471ddb73a9009c89b7e3513f58ed0078
